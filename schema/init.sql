@@ -1,0 +1,6 @@
+CREATE TABLE tasks(
+   id serial PRIMARY KEY,
+   title VARCHAR (256) NOT NULL,
+   done BOOLEAN DEFAULT FALSE NOT NULL,
+   created_at TIMESTAMP NOT NULL
+);
