@@ -3,13 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Clasyc/todo/model"
 	"net/http"
 )
-
-type Response struct {
-	Tasks []*model.Task
-}
 
 // Error replies to the request with the specified error message and HTTP code.
 // It does not otherwise end the request; the caller should ensure no further

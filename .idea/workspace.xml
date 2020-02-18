@@ -6,7 +6,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/task.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

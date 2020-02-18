@@ -6,6 +6,10 @@ import (
 	"net/http"
 )
 
+type Response struct {
+	Tasks []*model.Task
+}
+
 func render(w http.ResponseWriter, name string) {
 	tmpl, _ := template.ParseFiles(name)
 

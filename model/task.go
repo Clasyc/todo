@@ -18,7 +18,8 @@ func NewTask(title string, done bool) *Task {
 }
 
 func (t *Task) Create() error {
-	return svc.DB.Model(&Task{}).Create(t).Error
+	return svc.DB.
+		Model(&Task{}).Create(t).Error
 }
 
 func (t *Task) Toggle(b bool) error {
