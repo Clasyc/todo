@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4accd4a6-8db5-446e-8160-d1ea9810a9e4" name="Default Changelist" comment="" />
+    <list default="true" id="4accd4a6-8db5-446e-8160-d1ea9810a9e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/slice.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +22,11 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XcbBT2WOPtHwPJmhMAYCOH9BFh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,22 +36,24 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../adaptdk/rispons-msgs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/model" />
       <recent name="$PROJECT_DIR$/schema" />
       <recent name="$PROJECT_DIR$/template" />
-      <recent name="$PROJECT_DIR$/model" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/Clasyc/todo">
@@ -54,6 +66,17 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="TestGetTask in github.com/Clasyc/todo/model" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="todo" />
+      <working_directory value="$PROJECT_DIR$/model" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Clasyc/todo/model" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestGetTask$" />
+      <method v="2" />
+    </configuration>
     <configuration name="main_test.go" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
       <module name="todo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -61,13 +84,19 @@
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/main_test.go" />
+      <filePath value="$PROJECT_DIR$/model/task_test.go" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Go Build.go build github.com/Clasyc/todo" />
       <item itemvalue="Go Test.main_test.go" />
+      <item itemvalue="Go Test.TestGetTask in github.com/Clasyc/todo/model" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestGetTask in github.com/Clasyc/todo/model" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -85,58 +114,71 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2557" y="304" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581415989124">
-      <screen x="1920" y="0" width="2560" height="1440" />
+    <state x="528" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581445847319">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="2557" y="304" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581415989124" />
-    <state x="528" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581409645653" />
+    <state x="528" y="249" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581445847319" />
     <state x="2874" y="352" width="642" height="743" key="#main_test.go" timestamp="1581417298406">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2874" y="352" width="642" height="743" key="#main_test.go/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581417298406" />
-    <state x="2983" y="478" width="424" height="491" key="FileChooserDialogImpl" timestamp="1581415604660">
+    <state x="2020" y="100" width="2360" height="1240" key="DiffContextDialog" timestamp="1581424048617">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2983" y="478" width="424" height="491" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581415604660" />
-    <state width="2514" height="495" key="GridCell.Tab.0.bottom" timestamp="1581420803866">
+    <state x="2020" y="100" width="2360" height="1240" key="DiffContextDialog/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581424048617" />
+    <state x="2983" y="478" width="424" height="491" key="FileChooserDialogImpl" timestamp="1581512585049">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2514" height="495" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581420803866" />
-    <state width="2514" height="280" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581414949146" />
-    <state width="2514" height="495" key="GridCell.Tab.0.center" timestamp="1581420803866">
+    <state x="2983" y="478" width="424" height="491" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581512585049" />
+    <state width="2514" height="280" key="GridCell.Tab.0.bottom" timestamp="1582019278808">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2514" height="495" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581420803866" />
-    <state width="2514" height="280" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581414949145" />
-    <state width="2514" height="495" key="GridCell.Tab.0.left" timestamp="1581420803866">
+    <state width="2514" height="280" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1582019278808" />
+    <state width="1807" height="280" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581445886885" />
+    <state width="2514" height="280" key="GridCell.Tab.0.center" timestamp="1582019278808">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2514" height="495" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581420803866" />
-    <state width="2514" height="280" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581414949145" />
-    <state width="2514" height="495" key="GridCell.Tab.0.right" timestamp="1581420803866">
+    <state width="2514" height="280" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1582019278808" />
+    <state width="1807" height="280" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581445886885" />
+    <state width="2514" height="280" key="GridCell.Tab.0.left" timestamp="1582019278807">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2514" height="495" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581420803866" />
-    <state width="2514" height="280" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581414949145" />
-    <state width="2514" height="495" key="GridCell.Tab.1.bottom" timestamp="1581420803866">
+    <state width="2514" height="280" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1582019278807" />
+    <state width="1807" height="280" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581445886885" />
+    <state width="2514" height="280" key="GridCell.Tab.0.right" timestamp="1582019278808">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2514" height="495" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581420803866" />
-    <state width="2514" height="495" key="GridCell.Tab.1.center" timestamp="1581420803866">
+    <state width="2514" height="280" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1582019278808" />
+    <state width="1807" height="280" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581445886885" />
+    <state width="2514" height="2" key="GridCell.Tab.1.bottom" timestamp="1581512185639">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2514" height="495" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581420803866" />
-    <state width="2514" height="495" key="GridCell.Tab.1.left" timestamp="1581420803866">
+    <state width="2514" height="2" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581512185639" />
+    <state width="2514" height="2" key="GridCell.Tab.1.center" timestamp="1581512185639">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2514" height="495" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581420803866" />
-    <state width="2514" height="495" key="GridCell.Tab.1.right" timestamp="1581420803866">
+    <state width="2514" height="2" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581512185639" />
+    <state width="2514" height="2" key="GridCell.Tab.1.left" timestamp="1581512185639">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state width="2514" height="495" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581420803866" />
+    <state width="2514" height="2" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581512185639" />
+    <state width="2514" height="2" key="GridCell.Tab.1.right" timestamp="1581512185639">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2514" height="2" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581512185639" />
+    <state x="2689" y="355" width="900" height="744" key="SettingsEditor" timestamp="1581512326361">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2689" y="355" width="1022" height="737" key="SettingsEditor/67.27.1853.1053/1920.0.2560.1440@1920.0.2560.1440" timestamp="1581512326361" />
+    <state x="624" y="287" width="900" height="744" key="SettingsEditor/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581445943524" />
     <state x="2940" y="410" width="683" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581409548904">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2940" y="410" width="683" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053/1920.0.2560.1440@67.27.1853.1053" timestamp="1581409548904" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/todo$TestGetTask_in_github_com_Clasyc_todo_model.out" NAME="TestGetTask in github.com/Clasyc/todo/model Coverage Results" MODIFIED="1581445886835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/todo$main_test_go.out" NAME="main_test.go Coverage Results" MODIFIED="1581445858210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
