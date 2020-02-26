@@ -19,11 +19,15 @@ func main() {
 	db.LogMode(true)
 	model.InitService(db)
 
+	adapters := []Adapter{WithID()}
+
 	r := mux.NewRouter()
 	r.HandleFunc("/", homeHandler)
 	r.HandleFunc("/create", createHandler)
 	r.HandleFunc("/delete/{id:[0-9]+}", deleteHandler)
 	r.HandleFunc("/toggle/{id:[0-9]+}", toggleHandler)
+
+	r.Handle("/header", Adapt(http.HandlerFunc(headerHandler), adapters...))
 
 	log.Fatal(http.ListenAndServe(":8090", r))
 }

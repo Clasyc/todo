@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/Clasyc/todo/model"
 	"github.com/gorilla/mux"
 	"net/http"
@@ -64,4 +65,12 @@ func toggleHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	http.Redirect(w, r, "/", http.StatusSeeOther)
+}
+
+// headerHandler
+func headerHandler(w http.ResponseWriter, r *http.Request) {
+	id := r.Context().Value("ID").(string)
+
+	fmt.Println("id inside handler: ", id)
+	return
 }
