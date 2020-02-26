@@ -9,10 +9,12 @@ import (
 	"testing"
 )
 
+const TestConnectionString = "user=postgres password=admin dbname=todo_test host=localhost port=5432 sslmode=disable"
+
 var dbtest *gorm.DB
 
 func TestMain(m *testing.M) {
-	db, err := gorm.Open("postgres", "user=postgres password=admin dbname=todo_test host=localhost port=5432 sslmode=disable")
+	db, err := gorm.Open("postgres", TestConnectionString)
 	if err != nil {
 		log.Fatal(err)
 	}
